@@ -27,7 +27,7 @@ public class TheRiddler {
 
 		// 6. Add some more riddles
 		String imput = JOptionPane.showInputDialog("What has a head a tail, but no body");
-		if(imput.equals("a coin")) {
+		if(imput.equals("A coin")) {
 			JOptionPane.showMessageDialog(null,"Corrtect!");
 			score+=1;
 		}
@@ -35,7 +35,7 @@ public class TheRiddler {
 			JOptionPane.showMessageDialog(null,"WRONG!!!!!!!!!!!!!!!!!!!!!!!!");
 		}
 		String inmput = JOptionPane.showInputDialog("what goes up but never comes down");
-		if(inmput.equals("your age")){
+		if(inmput.equals("Your age")){
 			JOptionPane.showMessageDialog(null,"Corrtect!");
 			score+=1;
 		}
